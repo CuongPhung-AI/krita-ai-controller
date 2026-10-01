@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=ai_controller
+X-Krita-Manual=Manual.html
+Name=AI Controller
+Comment=AI Drawing & Programmatic Control Bridge for Krita

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>AI Controller Plugin Manual</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; line-height: 1.5; }
+        h1 { color: #2980b9; }
+        code { background: #f0f0f0; padding: 2px 4px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>AI Controller Plugin for Krita</h1>
+    <p>This plugin exposes a local HTTP bridge (default port <code>5678</code>) allowing AI assistants and external scripts to control Krita programmatically.</p>
+    <h2>Features</h2>
+    <ul>
+        <li>Thread-safe main thread dispatch via Qt QTimer</li>
+        <li>Canvas inspection and rendered PNG snapshots</li>
+        <li>Document &amp; layer management (paint and vector layers)</li>
+        <li>Brush presets, size, opacity, and color controls</li>
+        <li>Real-time stroke, line, shape, and pixel painting</li>
+        <li>SVG path insertion on vector layers</li>
+        <li>Live Docker panel with activity log and status control</li>
+    </ul>
+</body>
+</html>

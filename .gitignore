@@ -1,0 +1,32 @@
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment and virtual environment directories
+.env
+.venv/
+env/
+venv/
+
+# Testing and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating system artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+
+# Krita backup files and logs
+*.kra~
+*.log
+
+# Agent metadata
+.agents/
+anti-slop-kit/
